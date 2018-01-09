@@ -37,9 +37,9 @@ Examples:
 ```
 
 ## API
-### multiCrop
 
-## API IS NEITHER STABLE NOR INTENDED FOR HUMAN CONSUMPTION, USE AT YOUR RISK
+### API IS NEITHER STABLE NOR INTENDED FOR HUMAN CONSUMPTION.
+The methods are not documented _for your protection_.
 
 ## Dependencies
 
