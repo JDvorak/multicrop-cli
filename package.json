@@ -1,0 +1,38 @@
+{
+  "name": "multi-crop",
+  "version": "1.0.0",
+  "description": "Fast multiple crops",
+  "main": "index.js",
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "test": "standard && npm run deps && NODE_ENV=test node test",
+    "test:cov": "standard && npm run deps && NODE_ENV=test istanbul cover test.js"
+  },
+  "repository": "jdvorak/multi-crop",
+  "keywords": [
+    ""
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "compute-mean": "^3.0.0",
+    "compute-stdev": "^1.0.0",
+    "concat-stream": "^1.6.0",
+    "glob": "^7.1.2",
+    "gm": "^1.23.0",
+    "pull-flatmap": "0.0.1",
+    "pull-glob": "^1.0.6",
+    "pull-paramap": "^1.2.2",
+    "pull-promise": "^2.0.0",
+    "smartcrop": "^1.1.1",
+    "smartcrop-gm": "^1.0.2",
+    "underscore": "^1.8.3",
+    "xtend": "^4.0.1",
+    "yargs": "^10.0.3"
+  },
+  "devDependencies": {
+    "dependency-check": "^2.9.1",
+    "istanbul": "^0.4.5",
+    "standard": "^10.0.3",
+    "tape": "^4.8.0"
+  }
+}
