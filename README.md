@@ -47,9 +47,7 @@ The underlying smartcrop dependency requires image magick to operate. On Debian 
 
 ## Installation
 
-```sh
-$ npm install -g multi-crop
-```
+TBD
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
