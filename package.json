@@ -1,7 +1,7 @@
 {
-  "name": "multi-crop",
+  "name": "multicrop-cli",
   "version": "1.0.0",
-  "description": "Fast multiple crops",
+  "description": "CLI for generating multiple crops",
   "main": "index.js",
   "scripts": {
     "deps": "dependency-check . && dependency-check . --extra --no-dev",
@@ -16,13 +16,10 @@
   "dependencies": {
     "compute-mean": "^3.0.0",
     "compute-stdev": "^1.0.0",
-    "concat-stream": "^1.6.0",
-    "glob": "^7.1.2",
     "gm": "^1.23.0",
     "pull-flatmap": "0.0.1",
     "pull-glob": "^1.0.6",
     "pull-paramap": "^1.2.2",
-    "pull-promise": "^2.0.0",
     "smartcrop": "^1.1.1",
     "smartcrop-gm": "^1.0.2",
     "underscore": "^1.8.3",
