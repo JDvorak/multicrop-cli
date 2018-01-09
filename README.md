@@ -1,5 +1,4 @@
 # multi-crop [![stability][0]][1]
-[![npm version][2]][3] [![build status][4]][5] [![test coverage][6]][7]
 [![downloads][8]][9] [![js-standard-style][10]][11]
 
 A poor man's dataset preparation tool. This tool abuses the excellent smartcrop tool to iterate over images in a directory and produce large sets of diverse yet data rich crops of images. Most, if not all, of its parts will eventually be cannibalized from this repository. However, the CLI is stable. 
